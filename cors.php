@@ -8,12 +8,11 @@
         http_response_code(200);
         exit;
     }
-
-    /*
-        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-            $raw = file_get_contents('php://input');
-            $data = json_decode($raw, true);
-        }
-    */
-
-    // echo json_encode(['hello' => 'world']);
+    
+    // if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    //     $raw = file_get_contents('php://input');
+    //     $data = json_decode($raw, true);
+    //      echo json_encode($data);   
+    // } else {
+    //      echo json_encode(['hello' => 'world']);   
+    // }
